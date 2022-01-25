@@ -12,4 +12,8 @@ public class Test1 {
     public void test2(){
         System.out.println("测试版本回退2222222222");
     }
+
+    public void test3(){
+        System.out.println("测试版本回退33333333333");
+    }
 }
