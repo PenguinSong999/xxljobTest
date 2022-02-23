@@ -183,4 +183,9 @@ public class Test1 {
 
     }
 
+    @Test
+    public void test13(){
+        System.out.println("分支合并冲突测试");
+    }
+
 }
