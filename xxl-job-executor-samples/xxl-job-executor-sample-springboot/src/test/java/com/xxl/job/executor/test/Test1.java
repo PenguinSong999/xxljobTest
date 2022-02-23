@@ -174,8 +174,8 @@ public class Test1 {
     @Test
     public void test12(){
 //        List test = null;
-        ArrayList<Integer> test = new ArrayList<>();
-        Collections.sort(test, new Comparator<Object>() {
+        List<Integer> list = new ArrayList<>();
+        Collections.sort(list, new Comparator<Object>() {
             @Override
             public int compare(Object o1, Object o2) {
                 return (int) o1 - (int)o2;
