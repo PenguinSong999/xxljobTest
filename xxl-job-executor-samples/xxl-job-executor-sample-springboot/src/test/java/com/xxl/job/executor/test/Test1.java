@@ -171,4 +171,16 @@ public class Test1 {
         System.out.println("156565656E+11".matches(regex));
     }
 
+    @Test
+    public void test12(){
+        List test = null;
+        Collections.sort(test, new Comparator<Object>() {
+            @Override
+            public int compare(Object o1, Object o2) {
+                return (int) o1 - (int)o2;
+            }
+        });
+
+    }
+
 }
