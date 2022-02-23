@@ -175,6 +175,7 @@ public class Test1 {
     public void test12(){
 //        List test = null;
         List<Integer> list = new ArrayList<>();
+        System.out.println("分支合并冲突测试");
         Collections.sort(list, new Comparator<Object>() {
             @Override
             public int compare(Object o1, Object o2) {
