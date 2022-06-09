@@ -190,4 +190,8 @@ public class Test1 {
         System.out.println("分支合并冲突测试");
     }
 
+    public void test00(){
+        System.out.println("stash测试");
+    }
+
 }
