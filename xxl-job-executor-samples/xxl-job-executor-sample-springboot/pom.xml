@@ -53,7 +53,6 @@
             <version>3.3.0</version>
         </dependency>
 
-
         <!-- xxl-job-core -->
         <dependency>
             <groupId>com.xuxueli</groupId>
