@@ -9,4 +9,9 @@ public class Test2 {
     public void test2(){
         System.out.println("reset版本回退测试");
     }
+
+
+    public void test3(){
+        System.out.println("cherry-pick合并分支测试1111");
+    }
 }
