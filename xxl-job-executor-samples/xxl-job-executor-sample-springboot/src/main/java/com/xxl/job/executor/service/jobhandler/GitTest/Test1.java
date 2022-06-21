@@ -12,6 +12,10 @@ public class Test1 {
 
 
     public void test3(){
-        System.out.println("测试版本回退33333333333");
+        System.out.println("测试revert版本回退33333333333");
+    }
+
+    public void test4(){
+        System.out.println("reset版本回退测试2");
     }
 }
