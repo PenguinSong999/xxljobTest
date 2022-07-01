@@ -19,4 +19,13 @@ public class Test2 {
     public void test4(){
         System.out.println("cherry-pick合并分支测试2");
     }
+
+
+    public void test5(){
+        System.out.println("cherry-pick合并分支测试555");
+    }
+
+    public void test6(){
+        System.out.println("cherry-pick合并分支测试666");
+    }
 }
