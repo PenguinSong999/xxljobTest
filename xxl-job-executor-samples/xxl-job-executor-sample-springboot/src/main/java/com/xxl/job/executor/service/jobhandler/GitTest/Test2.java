@@ -29,6 +29,11 @@ public class Test2 {
         System.out.println("cherry-pick合并分支测试666");
     }
 
+
+    public void test7(){
+        System.out.println("cherry-pick合并分支测试7777777777");
+    }
+
     public void test8(){
         System.out.println("cherry-pick合并分支测试88888888");
     }
