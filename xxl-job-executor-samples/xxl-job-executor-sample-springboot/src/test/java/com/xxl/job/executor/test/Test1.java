@@ -386,4 +386,8 @@ public class Test1 {
         System.out.println("stash测试");
     }
 
+    public void test111(){
+        System.out.println("测试");
+    }
+
 }
