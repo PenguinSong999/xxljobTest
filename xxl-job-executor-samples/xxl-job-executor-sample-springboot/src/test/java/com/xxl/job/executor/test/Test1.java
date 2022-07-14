@@ -9,6 +9,7 @@ import org.springframework.boot.ansi.AnsiOutput;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.types.RedisClientInfo;
 
+import javax.sound.midi.Soundbank;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
@@ -382,12 +383,27 @@ public class Test1 {
         System.out.println(arr.subList(1,1));
     }
 
+    @Test
     public void test00(){
-        System.out.println("stash测试");
+      String str =  "8617878787878";
+        String substring = str.substring(2, str.length() - 1);
+        System.out.println(substring);
     }
 
+    @Test
     public void test111(){
-        System.out.println("测试");
+        String test = "你好，%s";
+
+        String str = String.format(test, "小明");
+
+        System.out.println(str);
+
+        HashMap<String, Object> map = new HashMap<>();
+        Set<Map.Entry<String, Object>> entries = map.entrySet();
+        for (Map.Entry<String,Object> entry : entries){
+            String key = entry.getKey();
+            Object value = entry.getValue();
+        }
     }
 
 }
